@@ -1,0 +1,9 @@
+# gitleaks 設定（デフォルトルール + プロジェクト固有の許可リスト）
+[extend]
+useDefault = true
+
+# 誤検知を許可する場合は以下の形式で追記する。追加時は理由をコメントで併記すること。
+#
+# [[allowlists]]
+# description = "テスト用の例示 UUID"
+# regexes = ['''550e8400-e29b-41d4-a716-[0-9a-f]{12}''']
